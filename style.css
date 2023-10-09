@@ -1,0 +1,46 @@
+#game{
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin: 0px auto ;
+}
+
+#dino{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-image: url(Img/trex.png);
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    top: 150px;
+}
+
+.pular{
+    animation-name: pular;
+    animation-duration: 1s;
+}
+
+@keyframes pular {
+    0%{
+        top: 150px;
+    }
+
+
+
+    50%{
+        top: 100px;
+    }
+
+
+    100%{
+        top: 150px;
+    }
+
+    
+}
+
+
+
